@@ -21,7 +21,9 @@ interface IMusicControl {
      * List all available songs in the configured music directory
      */
     function listAllSongs();
-    
+
+    function initPlaylist();
+
     function play($songNumber);
     function stop();
     
